@@ -5,6 +5,7 @@
   <!-- *ngFor="let heroe of heroes; index as i" -->
 
   <app-heroe-tarjeta
+    (heroeSeleccionado)="verHeroe($event)"
     [heroe]="heroe"
     [indice]="i"
     *ngFor="let heroe of heroes; let i = index"
