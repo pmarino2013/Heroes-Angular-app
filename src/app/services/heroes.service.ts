@@ -64,6 +64,10 @@ export class HeroesService {
   getHeroes() {
     return this.heroes;
   }
+
+  getHeroe(idx: number) {
+    return this.heroes[idx];
+  }
 }
 
 //para ser más específico en los datos que necesita el arreglo
