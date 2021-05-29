@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { BuscarComponent } from './components/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     HeroesComponent,
     AboutComponent,
     HeroeComponent,
+    BuscarComponent,
   ],
   //En imports va el archivo de rutas
   imports: [BrowserModule, APP_ROUTING],
