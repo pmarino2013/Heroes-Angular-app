@@ -15,6 +15,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { BuscarComponent } from './components/buscar/buscar.component';
     AboutComponent,
     HeroeComponent,
     BuscarComponent,
+    HeroeTarjetaComponent,
   ],
   //En imports va el archivo de rutas
   imports: [BrowserModule, APP_ROUTING],
